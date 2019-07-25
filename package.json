@@ -1,0 +1,22 @@
+{
+  "name": "servertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardAbsin98/ServerTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardAbsin98/ServerTest/issues"
+  },
+  "homepage": "https://github.com/RichardAbsin98/ServerTest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
