@@ -5,12 +5,12 @@ module.exports = {
     }],
     deploy: {
         production: {
-            user: 'ubuntu',
-            host: 'ec2-34-201-116-83.compute-1.amazonaws.com',
-            key: '~/Desktop/Stuff/ImagenKeyPair.pem',
-            ref: 'origin/master',
+            user: 'absinr',
+            host: '104.198.204.80',
+            key: '~/.ssh/gcp_rsa',
+            ref: 'origin/gcp',
             repo: 'https://github.com/RichardAbsin98/ServerTest.git',
-            path: '/home/ubuntu/ServerTest',
+            path: '/home/absinr/ServerTest',
             'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
         }
     }
