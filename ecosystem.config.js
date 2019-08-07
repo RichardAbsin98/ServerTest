@@ -6,7 +6,8 @@ module.exports = {
     deploy: {
         production: {
             user: 'ubuntu',
-            host: 'ec2-34-201-132-30.compute-1.amazonaws.com',
+            // host: 'ec2-34-201-132-30.compute-1.amazonaws.com',
+            host: '34.201.132.30',
             key: '~/.ssh/ImagenKeyPair02.pem',
             ref: 'origin/ImagenWebServer',
             repo: 'https://github.com/RichardAbsin98/ServerTest.git',
